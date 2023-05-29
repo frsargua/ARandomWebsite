@@ -1,0 +1,220 @@
+/* LandingPage.css */
+
+.landing-page-container {
+  color: #0d1b2a;
+  background-color: #e0f0ff;
+}
+
+/* Header Section */
+.header {
+  /* background-color: #72a1e5; */
+  background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/200403100322-house-cleaner.jpg?q=w_3000,h_1971,x_0,y_0,c_fill");
+  background-size: cover;
+  padding: 80px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header h1 {
+  font-size: 48px;
+}
+
+.header p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Section Heading */
+.section {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.section p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Features Section */
+.features {
+  margin-bottom: 60px;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.feature i {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.feature p {
+  font-size: 18px;
+  color: #666;
+}
+/* Reviews Section */
+.reviews {
+  background-color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.review-card {
+  width: 60%;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.review-card .card-body {
+  padding: 2rem;
+}
+
+.review-card .card-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.review-card .card-subtitle {
+  font-size: 20px;
+  color: #ffcc00;
+  margin-bottom: 1.5rem;
+}
+
+.review-card .card-text {
+  font-size: 18px;
+  color: #666;
+}
+/* Pricing Section */
+.pricing-table {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  color: #0d1b2a;
+}
+
+.pricing-table th,
+.pricing-table td {
+  text-align: center;
+}
+
+.pricing-table thead {
+  background-color: #0d1b2a;
+  color: #ffffff;
+}
+
+/* Services Section */
+.section {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.section p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  justify-content: center; /* Center grid items along the X-axis */
+  text-align: center; /* Center text within grid items */
+}
+
+.services-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-list li svg {
+  color: #333;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.services-list li h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.services-list li p {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+}
+
+/* Call to Action Section */
+.cta {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+.cta-col {
+  text-align: center;
+}
+
+/* Contact Us Section */
+.contact {
+  background-color: #72a1e5;
+  color: #ffffff;
+  padding: 40px 0;
+}
+.contact-col {
+  text-align: center;
+}
+.contact h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.contact p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* LandingPage.css */
+/* Icons Section */
+.icons {
+  background-color: white;
+  padding: 3rem;
+  justify-content: space-around;
+}
+
+.icons svg {
+  color: #0d1b2a;
+  padding: 10px;
+}
